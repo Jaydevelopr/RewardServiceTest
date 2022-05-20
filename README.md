@@ -13,6 +13,12 @@ The service expose endpoint to calculate the reward points awarded to the custom
 + [com.h2database:h2]
 + [junit.junit.4.12]
 
+## How to run
+
+git clone https://github.com/Jaydevelopr/RewardServiceTest.git
+
+gradlew clean build
+
 ## Endpoints
 
 ### GET `/getRewardpoints/{customerId}`
